@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introducción a TypeScript
 
 ## Título:
@@ -674,3 +675,6 @@ try {
 1. **Clase de Conexión de Base de Datos**: La clase `DatabaseConnection` tiene métodos para manejar transacciones (`beginTransaction`, `commitTransaction`, `rollbackTransaction`).
 2. **Decorador `@Transactional`**: El decorador `@Transactional` envuelve el método original. Antes de ejecutar el método, inicia una transacción. Si el método se ejecuta sin errores, confirma la transacción; si ocurre un error, revierte la transacción.
 3. **Aplicación del Decorador**: El decorador se aplica al método `createUser` en la clase `UserService`. Este método intenta crear un usuario y puede lanzar una excepción si el correo electrónico no es válido.
+=======
+# Introduction-to-TypeScript
+>>>>>>> 25beb56ace10cbdab376143a19daf96a4eb9d06c
